@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "AccessDenied";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<div class="d-flex justify-content-center align-items-center" style="height:90vh">
+    <div class="border rounded col-4 pt-4 pb-4">
+        <div class="pb-4" style="width:80%; height: 80%; margin:auto;"><img src="~/images/AccessDenied.png" asp-append-version=true style="height:90%; width: 100%" /></div>
+        <hr />
+        <partial name="_SignInSingUpPartialView" />
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
+
